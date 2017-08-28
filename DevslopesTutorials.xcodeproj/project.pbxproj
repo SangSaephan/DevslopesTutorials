@@ -16,6 +16,7 @@
 		4E3B94DC1F4EBCA200F317B8 /* HttpService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B94DB1F4EBCA200F317B8 /* HttpService.m */; };
 		4E3B94FD1F539F0A00F317B8 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B94FC1F539F0A00F317B8 /* VideoCell.m */; };
 		4E3B95001F53B9FE00F317B8 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B94FF1F53B9FE00F317B8 /* Video.m */; };
+		4E3B95031F5405EB00F317B8 /* VideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B95021F5405EB00F317B8 /* VideoVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		4E3B94FC1F539F0A00F317B8 /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
 		4E3B94FE1F53B9FE00F317B8 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
 		4E3B94FF1F53B9FE00F317B8 /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		4E3B95011F5405EB00F317B8 /* VideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoVC.h; sourceTree = "<group>"; };
+		4E3B95021F5405EB00F317B8 /* VideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			children = (
 				4E3B94C51F4EBBD900F317B8 /* ViewController.h */,
 				4E3B94C61F4EBBD900F317B8 /* ViewController.m */,
+				4E3B95011F5405EB00F317B8 /* VideoVC.h */,
+				4E3B95021F5405EB00F317B8 /* VideoVC.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 				4E3B94FD1F539F0A00F317B8 /* VideoCell.m in Sources */,
 				4E3B94DC1F4EBCA200F317B8 /* HttpService.m in Sources */,
 				4E3B95001F53B9FE00F317B8 /* Video.m in Sources */,
+				4E3B95031F5405EB00F317B8 /* VideoVC.m in Sources */,
 				4E3B94C41F4EBBD900F317B8 /* AppDelegate.m in Sources */,
 				4E3B94C11F4EBBD900F317B8 /* main.m in Sources */,
 			);
