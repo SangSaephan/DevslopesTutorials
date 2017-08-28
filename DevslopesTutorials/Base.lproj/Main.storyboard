@@ -33,7 +33,7 @@
                                 <rect key="frame" x="16" y="38" width="343" height="629"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="104" id="ln2-e7-513" customClass="VideoCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="main" rowHeight="104" id="ln2-e7-513" customClass="VideoCell">
                                         <rect key="frame" x="0.0" y="28" width="343" height="104"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ln2-e7-513" id="iXS-Xx-krG">
@@ -47,6 +47,7 @@
                                                             <rect key="frame" x="8" y="8" width="126" height="72"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="126" id="jcQ-Hz-jbd"/>
+                                                                <constraint firstAttribute="height" constant="72" id="naQ-nv-HGI"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to Build an Apple TV App Tutorial for tvOS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDR-o9-puv">
@@ -71,7 +72,6 @@
                                                         <constraint firstItem="rDR-o9-puv" firstAttribute="leading" secondItem="LOP-8e-OSB" secondAttribute="trailing" constant="8" id="SvC-3V-biO"/>
                                                         <constraint firstAttribute="trailing" secondItem="rDR-o9-puv" secondAttribute="trailing" constant="8" id="bGi-vp-yGr"/>
                                                         <constraint firstItem="LOP-8e-OSB" firstAttribute="leading" secondItem="JAP-KP-duQ" secondAttribute="leading" constant="8" id="cTR-Xo-BUd"/>
-                                                        <constraint firstAttribute="bottom" secondItem="LOP-8e-OSB" secondAttribute="bottom" constant="8" id="r5o-ch-Mbj"/>
                                                         <constraint firstItem="rhg-dR-QZR" firstAttribute="leading" secondItem="LOP-8e-OSB" secondAttribute="trailing" constant="8" id="rSo-M5-6nJ"/>
                                                         <constraint firstItem="LOP-8e-OSB" firstAttribute="top" secondItem="JAP-KP-duQ" secondAttribute="top" constant="8" id="zK2-Pq-EfK"/>
                                                     </constraints>

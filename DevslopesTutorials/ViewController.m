@@ -23,6 +23,8 @@
     
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    self.tableView.estimatedRowHeight = 100.0;
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
     
     self.videoList = [[NSArray alloc] init];
     
@@ -66,7 +68,9 @@
 }
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    Video *video = [self.videoList objectAtIndex:indexPath.row];
+    VideoCell *videoCell = (VideoCell*)cell;
+    [videoCell updateUI:video];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
