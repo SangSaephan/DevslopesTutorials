@@ -14,6 +14,7 @@
 		4E3B94CC1F4EBBD900F317B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3B94CB1F4EBBD900F317B8 /* Assets.xcassets */; };
 		4E3B94CF1F4EBBD900F317B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3B94CD1F4EBBD900F317B8 /* LaunchScreen.storyboard */; };
 		4E3B94DC1F4EBCA200F317B8 /* HttpService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B94DB1F4EBCA200F317B8 /* HttpService.m */; };
+		4E3B94FD1F539F0A00F317B8 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B94FC1F539F0A00F317B8 /* VideoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		4E3B94D01F4EBBD900F317B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E3B94DA1F4EBCA200F317B8 /* HttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpService.h; sourceTree = "<group>"; };
 		4E3B94DB1F4EBCA200F317B8 /* HttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpService.m; sourceTree = "<group>"; };
+		4E3B94FB1F539F0A00F317B8 /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		4E3B94FC1F539F0A00F317B8 /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 			children = (
 				4E3B94CD1F4EBBD900F317B8 /* LaunchScreen.storyboard */,
 				4E3B94C81F4EBBD900F317B8 /* Main.storyboard */,
+				4E3B94FB1F539F0A00F317B8 /* VideoCell.h */,
+				4E3B94FC1F539F0A00F317B8 /* VideoCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E3B94C71F4EBBD900F317B8 /* ViewController.m in Sources */,
+				4E3B94FD1F539F0A00F317B8 /* VideoCell.m in Sources */,
 				4E3B94DC1F4EBCA200F317B8 /* HttpService.m in Sources */,
 				4E3B94C41F4EBBD900F317B8 /* AppDelegate.m in Sources */,
 				4E3B94C11F4EBBD900F317B8 /* main.m in Sources */,
