@@ -15,6 +15,7 @@
 		4E3B94CF1F4EBBD900F317B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3B94CD1F4EBBD900F317B8 /* LaunchScreen.storyboard */; };
 		4E3B94DC1F4EBCA200F317B8 /* HttpService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B94DB1F4EBCA200F317B8 /* HttpService.m */; };
 		4E3B94FD1F539F0A00F317B8 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B94FC1F539F0A00F317B8 /* VideoCell.m */; };
+		4E3B95001F53B9FE00F317B8 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B94FF1F53B9FE00F317B8 /* Video.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		4E3B94DB1F4EBCA200F317B8 /* HttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpService.m; sourceTree = "<group>"; };
 		4E3B94FB1F539F0A00F317B8 /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
 		4E3B94FC1F539F0A00F317B8 /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		4E3B94FE1F53B9FE00F317B8 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		4E3B94FF1F53B9FE00F317B8 /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 		4E3B94D61F4EBC4100F317B8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4E3B94FE1F53B9FE00F317B8 /* Video.h */,
+				4E3B94FF1F53B9FE00F317B8 /* Video.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				4E3B94C71F4EBBD900F317B8 /* ViewController.m in Sources */,
 				4E3B94FD1F539F0A00F317B8 /* VideoCell.m in Sources */,
 				4E3B94DC1F4EBCA200F317B8 /* HttpService.m in Sources */,
+				4E3B95001F53B9FE00F317B8 /* Video.m in Sources */,
 				4E3B94C41F4EBBD900F317B8 /* AppDelegate.m in Sources */,
 				4E3B94C11F4EBBD900F317B8 /* main.m in Sources */,
 			);
